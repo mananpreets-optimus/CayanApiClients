@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <DetailsByTransportKey xmlns="http://schemas.merchantwarehouse.com/genius/10/Reporting">
+      <Name>abc</Name>
+      <SiteID>123</SiteID>
+      <Key>abc123</Key>
+      <TransportKey>788278e9-7f8c-4aae-92dd-aa85ff17d7d1</TransportKey>
+    </DetailsByTransportKey>
+  </soap:Body>
+</soap:Envelope>

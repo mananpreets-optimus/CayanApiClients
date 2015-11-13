@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v4="http://transport.merchantware.net/v4/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v4:CreateTransaction>
+         <!--Optional:-->
+         <v4:merchantName>abc</v4:merchantName>
+         <!--Optional:-->
+         <v4:merchantSiteId>123</v4:merchantSiteId>
+         <!--Optional:-->
+         <v4:merchantKey>abc123</v4:merchantKey>
+         <!--Optional:-->
+         <v4:request>
+           
+           <!--Optional:-->
+            <v4:TransactionType>q</v4:TransactionType>
+            <v4:Amount>21</v4:Amount>
+            <!--Optional:-->
+            <v4:ClerkId>12</v4:ClerkId>
+            <!--Optional:-->
+            <v4:OrderNumber>34</v4:OrderNumber>
+            <!--Optional:-->
+            <v4:Dba>we</v4:Dba>
+            <!--Optional:-->
+            <v4:SoftwareName>vb</v4:SoftwareName>
+            <!--Optional:-->
+            <v4:SoftwareVersion>2.3</v4:SoftwareVersion>
+            <!--Optional:-->
+            <v4:AddressLine1>qw</v4:AddressLine1>
+            <!--Optional:-->
+            <v4:Zip>2</v4:Zip>
+            <!--Optional:-->  
+         </v4:request>
+      </v4:CreateTransaction>
+   </soapenv:Body>
+</soapenv:Envelope>

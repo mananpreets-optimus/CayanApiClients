@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StatusResult>
+    <Status>Online</Status>
+    <CurrentScreen>00</CurrentScreen>
+    <ResponseMessage />
+    <SerialNumber>999-999-999</SerialNumber>
+    <ApplicationVersion>5.0.0.1</ApplicationVersion>
+    <OSVersion>RFS00190</OSVersion>
+    <AdditionalParameters />
+</StatusResult>
