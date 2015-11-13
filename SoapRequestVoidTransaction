@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soap:Body>
+		<Void xmlns="http://schemas.merchantwarehouse.com/merchantware/40/Credit/">
+			<merchantName>abc</merchantName>
+			<merchantSiteId>123</merchantSiteId>
+			<merchantKey>abc123</merchantKey>
+			<token>100100100</token>
+			<registerNumber/>
+			<merchantTransactionId/>
+		</Void>
+	</soap:Body>
+</soap:Envelope>                
